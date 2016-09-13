@@ -20,7 +20,7 @@ and start the two web applications with jetty:
 
 To test,
 
-- call the [http://localhost:8080/cas-management](http://localhost:8080/cas-management) url to access the CAS services management webapp
+- call the [http://localhost:9001/cas-management](http://localhost:9001/cas-management) url to access the CAS services management webapp
 - be redirected to CAS server and authenticate (username: jleleu, password: jleleu)
 - be redirected back to the CAS services management webapp, being successfully authenticated.
 
@@ -28,5 +28,5 @@ To test,
 
 You can also deploy manually these two web applications in your favorite web applications server:
 
-- cas-overlay-server-demo on http://localhost:8080/cas
-- cas-overlay-management-demo on http://localhost:8080/cas-management.
+- cas-overlay-server-demo on http://localhost:9001/cas
+- cas-overlay-management-demo on http://localhost:9001/cas-management.

@@ -102,6 +102,11 @@
                     <webApp>
                         <contextPath>/cas</contextPath>
                     </webApp>
+                    <connectors>
+                        <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                            <port>9001</port>
+                        </connector>
+                    </connectors>
                     <contextHandlers>
                         <contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext">
                             <war>${basedir}/../cas-overlay-management-demo/target/cas-overlay-management-demo.war</war>
